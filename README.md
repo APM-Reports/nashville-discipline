@@ -12,6 +12,9 @@ Officers at the MNPD have alleged that there are patterns of retaliation against
 ## Project notes
 
 ### Data sources
+* `Report 6-14-21 Data Request.xls`
+  * this spreadsheet is a list of all discipline issued against officers. We should consider this the definitive list of discipline.
+
 * `2010-2020.xlsx`
   * this is a spreadsheet of the discipline brought against every officer from 2010 to 2020. It does not include the name of people who brought the compliant that started the possible disciplinary investigation.
 
@@ -36,3 +39,5 @@ Officers at the MNPD have alleged that there are patterns of retaliation against
 
 
 ## Data notes
+* `Report 6-14-21 Data Request.xls`
+  * 
