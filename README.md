@@ -7,37 +7,32 @@ Allegations of retalitation abound at the Nashville Police.
 *Reporter: Will Craft (<wcraft@apmreports.org>)*
 
 ## Project goal
-Officers at the MNPD have alleged that there are patterns of retaliation against people who speak up about conditions at the department. APM Reports and WPLN wanted to test whether people who file grievances and OPA complaints against fellow officers are more likely to be disciplined and if so, if there are clear patterns between being disciplined and when they filed their complaints.
+In 2020, a video of a high ranking officer with the Metro Nashville Police Department harassing a woman went viral. As the video spread through social media, other women began to come forwards with their own stories of being harassed by police. Many of the women worked at the department themselves, and described how the department failed to hold their abusers accountable.
+
+WPLN and APM Reports heard from over a dozen sources at the department who described a two-tiered discipline system. They alleged that white officers in the good graces of the department were treated leniently, while women and employees of color were often held to a much higher standard. We wanted to know if this was isolated to a few of the most high-profile cases that emerged after the department’s own MeToo movement, or if there was a broader pattern in the disciplinary system.
+
+We gathered 10 years of discipline data from the department, available here, in order to analyze how the department treats employees of different races and genders.
 
 ## Project notes
 
 ### Data sources
-* `Report 6-14-21 Data Request.xls`
-  * this spreadsheet is a list of all discipline issued against officers. We should consider this the definitive list of discipline.
+
+* `cleaned_discipline_final.csv`
+  * This is the spreadsheet used in the analysis of discipline at the MNPD. It is the result of a series of automated and manual data cleaning present in `etl/discipline_name_cleaning`. Details on the pipeline are in `etl/discipline_name_cleaning/README.md`
 
 * `2010-2020.xlsx`
-  * this is a spreadsheet of the discipline brought against every officer from 2010 to 2020. It does not include the name of people who brought the compliant that started the possible disciplinary investigation.
+  * this is a spreadsheet of the discipline brought against every officer from 2010 to 2020. It includes the allegation, the date of the final disposition, and the outcome of the invesitgation into the alleged misconduct.
 
-* `List of EEOC Charges (N0373487xD719A).xls`
-  * This is a list of officers who filed federal title 7 violation complaints
+* `staff_roster_up_to_date`
+  * this is a staff roster containing standardized names for officers at the department, their start date, and their demographic information.
 
-* `MNPD Misconduct Spreadsheet.xlsx`
-  * `OPA Compliants`
-    * This tab lists opa complaints made against officers and the complaintants
-    * Reporter Samantha Max provided a list of known complaints made against officers by other officers:
-      - IA2015-00060 (A) and (B): Carey Adkerson against Deputy Chief Todd Henry and Chief Steve Anderson. He also filed a grievance on 7/25/16 and a lawsuit https://casetext.com/case/adkerson-v-metro-govt-of-nashville-davidson-cnty
-      - IA2016-00014 (A) and (B): Lawanna Coleman against Jackie Hoffman and Sue Bibb. She also filed EEOC complaints on 3/18/16 and 10/5/16 and a lawsuit on 7/31/17 https://www.leagle.com/decision/infdco20180806b94
-      - IA2018-00036: Anonymous against Kris Mason. Background: https://wpln.org/post/lesbian-metro-nashville-police-officer-says-she-faced-harsher-discipline-than-male-counterparts/
-      - IA2018-00042: Brian Woodard against Harold Burke
-      - IA2019-00043: Kristopher Sutton against Citlaly Gomez. Gomez is the one who initially filed a grievance (through MNPD HR) against Sutton for sexual harassment. He filed his complaint with OPA after.
-      - IA2020-00031 (A): Antigona Gashi against Robert Morris. This is my source who says she was harassed for being European. OPA simultaneously opened investigation IA2020-00031 (B) for self-control and false or frivolous accusations, but it was ultimately unfounded.
+#### Data not used
+* `Report 6-14-21 Data Request.xls`
+  * this spreadsheet is a list of all discipline issued against officers. This is a dataset that is one row per charge, not per incident, which makes analysis very difficult.
+
 
 ## Technical
-
-
 ### Project setup instructions
+After cloning the repo, run `pipenv install` to install dependencies. If you are rebuilding the cleaning process, read details on the etl pipeline in `etl/discipline_name_cleaning`.
 
-
-## Data notes
-* `Report 6-14-21 Data Request.xls`
-  * 
+Fact-checking documents and notebooks can be found in `analysis/archive`
