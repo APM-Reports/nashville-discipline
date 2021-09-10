@@ -4,7 +4,7 @@ Allegations of retalitation abound at the Nashville Police.
 
 *Created by Will Craft (<wcraft@apmreports.org>)*
 
-*Reporter: Will Craft (<wcraft@apmreports.org>)*
+*Reporter: Will Craft (<wcraft@apmreports.org>), Sam Max (<TK>)*
 
 ## Project goal
 In 2020, a video of a high ranking officer with the Metro Nashville Police Department harassing a woman went viral. As the video spread through social media, other women began to come forwards with their own stories of being harassed by police. Many of the women worked at the department themselves, and described how the department failed to hold their abusers accountable.
