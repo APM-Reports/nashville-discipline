@@ -39,11 +39,11 @@ The end-result is a set of discipline incidents with the race/ethnicity of the o
   * clean_race_ethnicity - standardized race/ethnicity. Use this column to analyze race and ethnicity, not race_ethnicity.
 
 
-# Cleaning Steps
+# Cleaning steps
 
 * `combine_roster_sheets.py` combines all the sheets in the roster spreadsheet, adds a year column, and saves the file as csv titled `staff_roster_cleaned.csv`
 
-* `create_discipline_name_cleaner.py` takes the unique set of names from the staff roster and runs a matching process to match the bad names from discipline file to the canonical names from the staff roster.
+* `create_discipline_name_cleaner.py` takes the unique set of names from the staff roster and runs a matching process to match the bad names from discipline file to the canonical names from the staff roster. This will solicit command line input from the user. 
 
 * After the semi-automated process of matching names, manually correct the following errors in the matching process. This needs to be edited in a text editor because there was no process for correcting mistakes during the name matching.
   * david harper: no match

@@ -4,7 +4,7 @@ Allegations of retalitation abound at the Nashville Police.
 
 *Created by Will Craft (<wcraft@apmreports.org>)*
 
-*Reporter: Will Craft (<wcraft@apmreports.org>), Sam Max (<TK>)*
+*Reporters: Will Craft (<wcraft@apmreports.org>), José Martínez (<martinez307jose@gmail.com>), Sam Max (<smax@wpln.org>)*
 
 ## Project goal
 In 2020, a video of a high ranking officer with the Metro Nashville Police Department harassing a woman went viral. As the video spread through social media, other women began to come forwards with their own stories of being harassed by police. Many of the women worked at the department themselves, and described how the department failed to hold their abusers accountable.
@@ -18,10 +18,25 @@ We gathered 10 years of discipline data from the department, available here, in 
 ### Data sources
 
 * `cleaned_discipline_final.csv`
-  * This is the spreadsheet used in the analysis of discipline at the MNPD. It is the result of a series of automated and manual data cleaning present in `etl/discipline_name_cleaning`. Details on the pipeline are in `etl/discipline_name_cleaning/README.md`
+  * This is the spreadsheet used in the analysis of discipline at the MNPD. It is the result of a series of automated and manual data cleaning present in `etl/discipline_name_cleaning`. Details on the pipeline are in `etl/discipline_name_cleaning/README.md`. The final columns for the cleaned discipline file are:
+    * CONTROL # - internal department reference number
+    * FINAL DISP DATE - date of the final disposition
+    * FINAL DISPOSITION - outcome of any investigation into the alleged misconduct
+    * FINAL # DAYS - if the outcome was a suspension, the number of days
+    * EMPLOYEE LAST NAME - last name of the officer
+    * EMPLOYEE FIRST NAME - first name of the officer
+    * ALLEGATION - the allegation
+    * COMP SEX - gender of the complaintant
+    * COMP RACE - race of the complaintant
+    * full_name - full name of the officer
+    * clean_name_x - a cleaned version of the officer's full name, for use in the semi-automated matching process
+    * roster_name_match - the officer's name as it appears in the staff roster
+    * clean_name_y - a cleaned version of the officer's full name, this is an artifact of the semi-automated matching process
+    * gender - officer gender
+    * clean_race_ethnicity - officer race/ethnicity. Multiracial wasn't used as a designation until 2018 in the staff roster so all officers who identified as multiracial after 2018 were assigned multiracial for discipline prior to 2018.
 
 * `2010-2020.xlsx`
-  * this is a spreadsheet of the discipline brought against every officer from 2010 to 2020. It includes the allegation, the date of the final disposition, and the outcome of the invesitgation into the alleged misconduct.
+  * this is a spreadsheet of the discipline brought against every officer from 2010 to 2020. It includes the allegation, the date of the final disposition, and the outcome of the investigation into the alleged misconduct.
 
 * `staff_roster_up_to_date`
   * this is a staff roster containing standardized names for officers at the department, their start date, and their demographic information.
