@@ -18,7 +18,7 @@ We gathered 10 years of discipline data from the department, available here, in 
 ### Data sources
 
 * `cleaned_discipline_final.csv`
-  * This is the spreadsheet used in the analysis of discipline at the MNPD. It is the result of a series of automated and manual data cleaning present in `etl/discipline_name_cleaning`. Details on the pipeline are in `etl/discipline_name_cleaning/README.md`. The final columns for the cleaned discipline file are:
+  * This is the spreadsheet used in the analysis of discipline at the MNPD. Each row represents an allegation of misconduct at the department. The cleaned version is the result of a series of automated and manual steps present in `etl/discipline_name_cleaning`. Details on the pipeline are in `etl/discipline_name_cleaning/README.md`. The final columns for the cleaned discipline file are:
     * CONTROL # - internal department reference number
     * FINAL DISP DATE - date of the final disposition
     * FINAL DISPOSITION - outcome of any investigation into the alleged misconduct
@@ -36,10 +36,10 @@ We gathered 10 years of discipline data from the department, available here, in 
     * clean_race_ethnicity - officer race/ethnicity. Multiracial wasn't used as a designation until 2018 in the staff roster so all officers who identified as multiracial after 2018 were assigned multiracial for discipline prior to 2018.
 
 * `2010-2020.xlsx`
-  * this is a spreadsheet of the discipline brought against every officer from 2010 to 2020. It includes the allegation, the date of the final disposition, and the outcome of the investigation into the alleged misconduct.
+  * this is a spreadsheet of the discipline brought against every officer from 2010 to 2020. It includes the allegation, the date of the final disposition, and the outcome of the investigation into the alleged misconduct. It is one row per allegation.
 
-* `staff_roster_up_to_date`
-  * this is a staff roster containing standardized names for officers at the department, their start date, and their demographic information.
+* `staff_roster_up_to_date.xlsx`
+  * this is a staff roster containing standardized names for officers at the department, their start date, and their demographic information. Each tab in the spreadsheet is one year, and each row in each tab is one officer.
 
 #### Data not used
 * `Report 6-14-21 Data Request.xls`
