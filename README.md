@@ -18,7 +18,7 @@ We gathered 10 years of discipline data from the department, available here, in 
 ### Data sources
 
 * `cleaned_discipline_final.csv`
-  * This is the spreadsheet used in the analysis of discipline at the MNPD. Each row represents an allegation of misconduct at the department. The cleaned version is the result of a series of automated and manual steps present in `etl/discipline_name_cleaning`. Details on the pipeline are in `etl/discipline_name_cleaning/README.md`. The final columns for the cleaned discipline file are:
+  * This is the spreadsheet used in the analysis of discipline at the MNPD. Each row represents an allegation of misconduct at the department. The cleaned version is the result of a series of automated and manual steps present in `etl/discipline_name_cleaning`. Details on the pipeline are in [`etl/discipline_name_cleaning/README.md`](https://github.com/APM-Reports/nashville-discipline/tree/master/etl/discipline_name_cleaning). The final columns for the cleaned discipline file are:
     * CONTROL # - internal department reference number
     * FINAL DISP DATE - date of the final disposition
     * FINAL DISPOSITION - outcome of any investigation into the alleged misconduct
