@@ -1,13 +1,10 @@
 # Nashville Discipline
-
-Allegations of retalitation abound at the Nashville Police.
-
 *Created by Will Craft (<wcraft@apmreports.org>)*
 
 *Reporters: Will Craft (<wcraft@apmreports.org>), José Martínez (<martinez307jose@gmail.com>), Sam Max (<smax@wpln.org>)*
 
 ## Project goal
-TK TK RE-WRITE COMING 
+
 
 ## Project notes
 
