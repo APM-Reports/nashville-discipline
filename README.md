@@ -4,7 +4,11 @@
 *Reporters: Will Craft (<wcraft@apmreports.org>), José Martínez (<martinez307jose@gmail.com>), Sam Max (<smax@wpln.org>)*
 
 ## Project goal
+WPLN and APM Reports heard from more than 20 sources at the Metro Nashville Police Department who described a two-tiered discipline system. They alleged that officers in the good graces of the department were treated leniently, while people who challenged the department's status quo were ostracized, punished, and pushed out of the department.
 
+Reporters gathered 10 years of data, available here, in order to analyze patterns of discipline at the department. The data show that over the last decade, non-white employees who were investigated for misconduct faced severe discipline at higher rates than their white colleagues. The gap is largest for Black women, who were suspended, demoted, and terminated at twice the rate of white men and women.
+
+Our data analysis is available [here](https://github.com/APM-Reports/nashville-discipline/blob/master/analysis/Discipline-Data-Analysis.ipynb)
 
 ## Project notes
 
