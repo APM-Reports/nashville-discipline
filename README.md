@@ -7,11 +7,7 @@ Allegations of retalitation abound at the Nashville Police.
 *Reporters: Will Craft (<wcraft@apmreports.org>), José Martínez (<martinez307jose@gmail.com>), Sam Max (<smax@wpln.org>)*
 
 ## Project goal
-In 2020, a video of a high ranking officer with the Metro Nashville Police Department harassing a woman went viral. As the video spread through social media, other women began to come forwards with their own stories of being harassed by police. Many of the women worked at the department themselves, and described how the department failed to hold their abusers accountable.
-
-WPLN and APM Reports heard from over a dozen sources at the department who described a two-tiered discipline system. They alleged that white officers in the good graces of the department were treated leniently, while women and employees of color were often held to a much higher standard. We wanted to know if this was isolated to a few of the most high-profile cases that emerged after the department’s own MeToo movement, or if there was a broader pattern in the disciplinary system.
-
-We gathered 10 years of discipline data from the department, available here, in order to analyze how the department treats employees of different races and genders.
+TK TK RE-WRITE COMING 
 
 ## Project notes
 
